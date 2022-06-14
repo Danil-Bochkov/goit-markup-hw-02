@@ -1,0 +1,163 @@
+:root {
+    --main-color: #212121;
+    --color-white: #ffffff;
+    --primary-white-color: #F5F4FA;
+    --accent-color: #2196F3;
+    --muted-text-color: #757575;
+    --accent-background-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    background-color: var(--color-white);
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text {
+    letter-spacing: 0.03em;
+}
+
+.logo .text{
+    font-family: 'Raleway';
+    text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+}
+.accent {
+    color: var(--accent-color);
+}
+
+.nav-list
+.contacts {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.contacts-link {
+    color: var(--muted-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.current {
+    color: var(--accent-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.section-hero {
+    background-color: var(--accent-background-color);
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.hero-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.advantage-item .text {
+    font-size: 14px;
+}
+
+.advantage-item h5 {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-item p {
+    line-height: 1.71;
+    color: var(--muted-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-team .text{
+    text-align: center;
+}
+
+.team-worker .text h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.team-worker p {
+    color: var(--muted-text-color);
+}
+
+.portfolio-list h3 {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.portfolio-list p {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--muted-text-color);
+}
+
+.filter {
+    cursor: pointer;
+    background-color: var(--primary-white-color);
+    line-height: 1.5;
+}
+
+.filter:hover, 
+.filter:focus, 
+.filter:active {
+    color: var(--color-white);
+    background-color: var(--accent-color);
+}
+
+.footer-page {
+    background-color: var(--accent-background-color);
+    color: var(--color-white);
+}
+
+.footer-info {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+.muted-color {
+    color: rgba(255, 255, 255, 0.6);
+}
