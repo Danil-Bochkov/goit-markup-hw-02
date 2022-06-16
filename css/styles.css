@@ -18,16 +18,13 @@ body {
     text-decoration: none;
 }
 
-.text {
-    letter-spacing: 0.03em;
-}
-
-.logo .text{
+.logo {
     font-family: 'Raleway';
     text-decoration: none;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 .accent {
     color: var(--accent-color);
@@ -86,8 +83,9 @@ body {
     cursor: pointer;
 }
 
-.advantage-item .text {
+.advantage-item {
     font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .advantage-item h5 {
