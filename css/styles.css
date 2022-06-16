@@ -1,3 +1,4 @@
+/* Main things for everything */
 :root {
     --main-color: #212121;
     --color-white: #ffffff;
@@ -18,33 +19,45 @@ body {
     text-decoration: none;
 }
 
+.list {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Header */
+
 .logo {
     font-family: 'Raleway';
     text-decoration: none;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .accent {
     color: var(--accent-color);
 }
 
-.nav-list
-.contacts {
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    color: var(--main-color);
+.nav-list > .nav-item,
+.contacts > .contacts-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
-
-.contacts-link {
-    color: var(--muted-text-color);
-}
-
-
 
 .nav-link:hover,
 .nav-link:focus,
@@ -52,10 +65,16 @@ body {
     color: var(--accent-color);
 }
 
+.contacts-link {
+    color: var(--muted-text-color);
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
 }
+
+/* Section Hero */
 
 .section-hero {
     background-color: var(--accent-background-color);
@@ -83,12 +102,14 @@ body {
     cursor: pointer;
 }
 
+/* Section Advantage */
+
 .advantage-item {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
 
-.advantage-item h5 {
+.advantage-item h3 {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -99,6 +120,8 @@ body {
     color: var(--muted-text-color);
 }
 
+/* Section About Us */
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -107,11 +130,13 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* Section Team */
+
 .section-team{
     background-color: var(--primary-white-color);
 }
 
-.team-worker > h4 {
+.team-worker > h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -121,32 +146,40 @@ body {
     color: var(--muted-text-color);
 }
 
-.portfolio-list h3 {
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-}
-
-.portfolio-list p {
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: var(--muted-text-color);
-}
+/* Portfolio Section*/
 
 .filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
     background-color: var(--primary-white-color);
-    line-height: 1.5;
 }
 
-.filter:hover, 
-.filter:focus, 
+.filter:hover,
+.filter:focus,
 .filter:active {
     color: var(--color-white);
     background-color: var(--accent-color);
 }
+
+.portfolio-list h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list p {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--muted-text-color);
+}
+
+/* Footer */
 
 .footer-page {
     background-color: var(--accent-background-color);
@@ -154,9 +187,9 @@ body {
 }
 
 .footer-info {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .muted-color {
     color: rgba(255, 255, 255, 0.6);

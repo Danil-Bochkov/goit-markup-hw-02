@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
     <header class="page-header">
         <nav class="menu">
             <a class="logo link" href="/index.html"><span class="accent">Web</span>Studio</a>
-            <ul class="nav-list link">
-                <li class="nav-item"><a class="nav-link link current" href="index.html">Студия</a></li>
-                <li class="nav-item"><a class="nav-link link" href="portfolio.html">Портфолио</a></li>
+            <ul class="nav-list link list">
+                <li class="nav-item"><a class="nav-link link" href="index.html">Студия</a></li>
+                <li class="nav-item"><a class="nav-link link  current" href="portfolio.html">Портфолио</a></li>
                 <li class="nav-item"><a class="nav-link link" href="">Контакт</a></li>
             </ul>
         </nav>
-        <ul class="contacts">
+        <ul class="contacts list">
             <li class="contacts-item"><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="contacts-item"><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -29,16 +28,16 @@
     
     <main>
         <section class="section-portfolio">
-            <h1></h1>
-            <div>
-                <button class="filter" type="button">Все</button>
-                <button class="filter" type="button">Веб-сайты</button>
-                <button class="filter" type="button">Приложения</button>
-                <button class="filter" type="button">Дизайн</button>
-                <button class="filter" type="button">Маркетинг</button>
-            </div>
+            <h1 class="visually-hidden">Фильтр</h1>
+            <ul class="list">
+                <li><button class="filter" type="button">Все</button></li>
+                <li><button class="filter" type="button">Веб-сайты</button></li>
+                <li><button class="filter" type="button">Приложения</button></li>
+                <li><button class="filter" type="button">Дизайн</button></li>
+                <li><button class="filter" type="button">Маркетинг</button></li>
+            </ul>
                 
-            <ul class="portfolio-list">
+            <ul class="portfolio-list list">
                 <li>
                     <img src="images/news.jpg" alt="Ноутбук" width="370" height="294">
                     <h2>Технокряк</h2>
@@ -91,7 +90,7 @@
     <footer class="footer-page">
         <a class="logo link" href="/"><span class="accent">Web</span>Studio</a>
         <address>
-            <ul class="footer-info link">
+            <ul class="footer-info link list">
                 <li class="footer-item"><a class="footer-link link address" href="/">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li class="footer-item muted-color"><a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="footer-item muted-color"><a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
