@@ -104,11 +104,8 @@ body {
 
 /* Section Advantage */
 
-.advantage-item {
-    font-size: 14px;
-}
-
 .advantage-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -203,8 +200,6 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address-link:hover,
-.footer-address-link:focus,
 .footer-contact-link:hover,
 .footer-contact-link:focus {
     color: var(--accent-color);
